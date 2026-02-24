@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furkan YAVUZ | Orman Endüstri Mühendisi</title>
+    <meta name="description"
+        content="Furkan YAVUZ - Profesyonel Profil ve CV Sitesi. Orman Endüstri Mühendisi, Yazılım ve Organizasyon Deneyimi.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Splash Screen Overlay -->
+    <div id="splashOverlay" class="splash-overlay">
+        <div class="splash-bg">
+            <!-- Many tree particles for a forest feel -->
+            <div class="tree-particle tp1"></div>
+            <div class="tree-particle tp2"></div>
+            <div class="tree-particle tp3"></div>
+            <div class="tree-particle tp4"></div>
+            <div class="tree-particle tp5"></div>
+            <div class="tree-particle tp6"></div>
+            <div class="tree-particle tp7"></div>
+            <div class="tree-particle tp8"></div>
+            <div class="tree-particle tp9"></div>
+            <div class="tree-particle tp10"></div>
+            <div class="tree-particle tp11"></div>
+            <div class="tree-particle tp12"></div>
+            <div class="tree-particle tp13"></div>
+            <div class="tree-particle tp14"></div>
+            <div class="tree-particle tp15"></div>
+            <div class="tree-particle tp16"></div>
+            <div class="tree-particle tp17"></div>
+            <div class="tree-particle tp18"></div>
+            <div class="tree-particle tp19"></div>
+            <div class="tree-particle tp20"></div>
+        </div>
+        <div class="splash-content">
+            <div class="splash-photo-container">
+                <img src="profile.jpg" alt="Furkan YAVUZ" class="splash-photo">
+            </div>
+            <h1 class="splash-name">Furkan YAVUZ</h1>
+            <p class="splash-tagline" data-i18n="profile_title">Orman Endüstri Mühendisi</p>
+            <div class="splash-info">
+                <p>+90 535 202 36 91</p>
+                <p>67furkanyavuz@gmail.com</p>
+            </div>
+            <button id="enterBtn" class="btn btn-enter">
+                Bilgileri Görüntüle &nbsp; <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="blueprint-grid"></div>
+    <button class="theme-toggle" id="themeToggle" title="Temayı Değiştir">
+        <i class="fas fa-moon"></i>
+    </button>
+    <button class="lang-toggle" id="langToggle" title="Change Language">
+        TR
+    </button>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-content">
+                <div class="profile-section">
+                    <img src="profile.jpg" alt="Furkan YAVUZ" class="profile-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Furkan+YAVUZ&background=354024&color=E5D7C4&size=128'">
+                    <h1 class="profile-name">Furkan YAVUZ</h1>
+                    <p class="profile-title" data-i18n="profile_title">Orman Endüstri Mühendisi</p>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#kimim" class="nav-item active"><i class="fas fa-id-card"></i> <span
+                            data-i18n="nav_about">Hakkımda</span></a>
+                    <a href="#projeler" class="nav-item"><i class="fas fa-code-branch"></i> <span
+                            data-i18n="nav_projects">Proje Deneyimlerim</span></a>
+                    <a href="#deneyimler" class="nav-item"><i class="fas fa-briefcase"></i> <span
+                            data-i18n="nav_experience">Çalışma Hayatım</span></a>
+                    <a href="#egitim" class="nav-item"><i class="fas fa-graduation-cap"></i> <span
+                            data-i18n="nav_certificates">Sertifikalarım</span></a>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="footer-actions">
+                    <div class="contact-group" id="contactGroup">
+                        <button class="btn btn-contact" id="contactBtn">
+                            <i class="fas fa-comment-dots"></i> &nbsp; <span data-i18n="btn_contact">Bana Ulaş</span>
+                        </button>
+                        <div class="contact-links">
+                            <a href="https://wa.me/905352023691" class="btn btn-sm btn-wa" target="_blank"
+                                title="WhatsApp'tan Mesaj At">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="tel:+905352023691" class="btn btn-sm btn-call" title="Ara">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-vcard" id="vcardBtn" title="Rehbere Ekle">
+                                <i class="fas fa-address-card"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="cv.pdf" class="btn btn-cv" download>
+                        <i class="fas fa-download"></i> &nbsp; <span data-i18n="btn_cv">CV İndir</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Detailed Bio Section (Consolidated) -->
+            <section id="kimim" class="active">
+                <h2 class="section-title" data-i18n="about_title">Hakkımda olan bilgiler</h2>
+                <div class="card" style="margin-bottom: 2rem;">
+                    <h3 style="margin-top: 0; margin-bottom: 0.8rem; color: var(--forest-deep);"
+                        data-i18n="bio_heading">Ben Kimim</h3>
+                    <p data-i18n="bio_p1">Ben Furkan YAVUZ. 2004 yılında Zonguldak’ın Çaycuma ilçesinde doğdum. Lise
+                        eğitimimi Zonguldak’ta
+                        tamamladıktan sonra üniversite eğitimi için İzmir’e yerleştim ve şu an İzmir Katip Çelebi
+                        Üniversitesi'nde Orman Endüstri Mühendisliği lisans sürecime devam ediyorum. Bu süreci sadece
+                        akademik bir yolculuk olarak değil; bitmek bilmeyen bir öğrenme tutkusu ve girişimcilik serüveni
+                        olarak tanımlıyorum. 4 yıllık öğrencilik hayatım boyunca, sınırları zorlayan pek çok farklı
+                        disiplinde kendimi denemekten ve yeni alanlara atılmaktan asla çekinmedim. Yazılımdan finansal
+                        analizlere, e-ticaret operasyonlarından TÜBİTAK 2209-A projelerine kadar uzanan bu süreçte;
+                        500.000’den fazla kullanıcıya ulaşan projeler
+                        yönettim ve sayısız girişimde aktif rol aldım.
+                    </p>
+                    <br>
+                    <p data-i18n="bio_p2">Benim için en büyük motivasyon kaynağı, bilinmeyen bir konunun derinliklerine
+                        inip onu en ince
+                        ayrıntısına kadar çözümlemektir. Bir problemi veya teknolojiyi günlerce, gerekirse haftalarca
+                        titizlikle araştırmaktan; o konunun uzmanı olana dek detaylarda kaybolmaktan büyük keyif alırım.
+                        Öğrenmeye olan bu "aşırı" açık yapım ve teknik altyapımı ticari zekayla birleştirme yeteneğimle,
+                        sadece verilen işi yapan değil; o işi kökten kavrayan, analiz eden ve inovatif çözümler üreten
+                        bir vizyonla hareket ediyorum.</p>
+
+                    <h3 style="margin-top: 1.5rem; margin-bottom: 0.8rem; color: var(--forest-deep);"
+                        data-i18n="career_heading">Kariyer Hedefleri
+                    </h3>
+                    <p data-i18n="career_p1">Orman Endüstri Mühendisliği disiplinini, ileri seviye teknoloji hakimiyetim
+                        ve dijital araçları
+                        en uç sınırlarına kadar kullanma becerimle birleştirerek sektörde fark yaratmayı hedefliyorum.
+                        Yazılım vizyonum ve analitik düşünme yapımla; geleneksel mühendislik süreçlerini dijital
+                        sistemlere entegre eden, verimliliği teknolojiyle maksimize eden öncü projelerde etkin rol
+                        almayı amaçlıyorum.</p>
+                    <br>
+                    <p data-i18n="career_p2">Öğrenmeye olan sınırsız merakımı ve teknik analitik yeteneğimi, kurumun
+                        dijital dönüşüm vizyonuna
+                        değer katacak bir kariyere dönüştürmek temel gayemdir. Sektörel bilgi birikimimi teknolojik
+                        çözüm üretme gücümle birleştirerek, sadece süreci yöneten değil, geleceğin mühendislik
+                        çözümlerini inşa eden bir vizyonla hareket ediyorum.</p>
+                </div>
+
+                <div class="card-grid grid-info">
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_personal">Kişisel Bilgiler</span>
+                        <ul style="color: var(--text-primary); margin-top: 1rem;">
+                            <li style="margin-bottom: 0.8rem;"><strong data-i18n="info_birth">Doğum:</strong> 19.02.2004
+                                | Zonguldak</li>
+                            <li style="margin-bottom: 0.8rem;"><strong data-i18n="info_residence">İkamet:</strong> İzmir
+                                / Zonguldak</li>
+                            <li style="margin-bottom: 0.8rem;"><strong data-i18n="info_license">Ehliyet:</strong> B, B1,
+                                F, M </li>
+                            <li style="margin-bottom: 0.8rem;"><strong data-i18n="info_military">Askerlik:</strong>
+                                <span data-i18n="military_status">Tecilli</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">İletişim & Sosyal</span>
+                        <ul style="color: var(--text-primary); margin-top: 1rem;">
+                            <li style="margin-bottom: 0.8rem;"><strong><i class="fas fa-phone"></i> Tel:</strong> 0535
+                                202 3691</li>
+                            <li style="margin-bottom: 0.8rem;"><strong><i class="fas fa-envelope"></i> E-posta:</strong>
+                                67furkanyavuz@gmail.com</li>
+                            <li style="margin-bottom: 0.8rem;"><strong><i class="fas fa-brands fa-linkedin"></i>
+                                    LinkedIn:</strong> <a href="https://linkedin.com/in/yavuz-furkan" target="_blank"
+                                    style="color: var(--forest-light);">linkedin.com/in/yavuz-furkan</a></li>
+                            <li style="margin-bottom: 0.8rem;"><strong><i class="fas fa-brands fa-github"></i>
+                                    GitHub:</strong> <a href="https://github.com/furqyz" target="_blank"
+                                    style="color: var(--forest-light);">github.com/furqyz</a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_education">Eğitim</span>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 1rem; margin-bottom: 0.3rem;" data-i18n="uni_name">İzmir Katip Çelebi
+                                Üniversitesi</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);" data-i18n="uni_deg">Orman Endüstri
+                                Mühendisliği (2022 - 2026)</p>
+                            <hr style="margin: 1rem 0; opacity: 0.1;">
+                            <h4 style="font-size: 1rem; margin-bottom: 0.3rem;" data-i18n="highschool_name">Çaycuma
+                                Oktay ve Olcay Yurtbay Anadolu Lisesi</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">(2018 - 2022)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_languages">Diller</span>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 1rem; margin-bottom: 0.3rem;" data-i18n="lang_tr">Türkçe</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);" data-i18n="lang_tr_level">Anadil</p>
+                            <hr style="margin: 1rem 0; opacity: 0.1;">
+                            <h4 style="font-size: 1rem; margin-bottom: 0.3rem;" data-i18n="lang_en">İngilizce</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);" data-i18n="lang_en_level">B2 - Üst
+                                Orta Seviye (Teknik okuma ve yazma yetkinliği)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projeler">
+                <h2 class="section-title" data-i18n="projects_title">Proje Deneyimlerim</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_ops">Operasyon & Satış</span>
+                        <h3 data-i18n="proj_ops_title">Dijital & Fiziksel Ürün Operasyonları</h3>
+                        <span class="card-date" data-i18n="date_present">Mart 2021 – Hâlen</span>
+                        <p data-i18n="proj_ops_desc">Lisans, yazılım ve fiziksel ürünlerin tedarik, satış ve satış
+                            sonrası destek süreçlerini yürütüyorum. Ödeme sistemleri entegrasyonu ve müşteri deneyimi
+                            süreçlerini bireysel olarak yönetmekteyim.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_trade">Ticaret & Tedarik</span>
+                        <h3 data-i18n="proj_trade_title">Uluslararası Ürün Tedarik & Satış Operasyonu</h3>
+                        <span class="card-date">2024</span>
+                        <p data-i18n="proj_trade_desc">Yurtdışından ürün tedarik edip (oyun konsolu ve aksesuarları)
+                            online ve fiziksel dağıtım kanalları üzerinden 250’den fazla satış işlemini uçtan uca
+                            yönettim.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_hobby">Yazılım & Tasarım</span>
+                        <h3 data-i18n="proj_web_title">Yazılım & Web Geliştirme (Hobi)</h3>
+                        <span class="card-date" data-i18n="date_constant">Sürekli Gelişim</span>
+                        <p data-i18n="proj_web_desc">Kullanıcı ihtiyaçlarına yönelik basit çaplı uygulama geliştirme
+                            çalışmaları yürütüyor ve modern arayüz tasarımlarına sahip web siteleri hazırlıyorum.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Akademik Araştırma</span>
+                        <h3>TÜBİTAK 2209-A Araştırma Projesi</h3>
+                        <span class="card-date">Kasım 2025 – Hâlen</span>
+                        <p>Sürdürülebilir malzeme geliştirme üzerine odaklanan projenin; deneysel tasarım, uygulama ve
+                            raporlama aşamalarında aktif rol aldım.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Organizasyon</span>
+                        <h3>Saha Organizasyon & Etkinlik Yönetimi</h3>
+                        <span class="card-date">Haziran 2024</span>
+                        <p>VAR sistemi destekli, ödüllü futbol turnuvasının tüm operasyonel süreçlerini yönettim.
+                            Sponsorluk görüşmeleri, bütçe yönetimi ve saha koordinasyonunu üstlendim.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Girişimcilik</span>
+                        <h3>Butik Mum Üretim & E-Ticaret Girişimi</h3>
+                        <span class="card-date">Eylül 2023 – Mart 2024</span>
+                        <p>Atölye aşamasında ürünlerin bizzat üretimini, formülasyonunu ve tasarımını gerçekleştirerek;
+                            paketlemeden dijital pazarlamaya kadar tüm e-ticaret operasyonlarını uçtan uca yönettim.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Finans & Analiz</span>
+                        <h3>Borsa ve Finans Yönetimi</h3>
+                        <span class="card-date">Ekim 2022 – Hâlen</span>
+                        <p>BIST ve ABD borsalarında aktif işlem yaparak portföy yönetimi gerçekleştiriyorum. Finansal
+                            okuryazarlık kapsamında teknik analiz paylaşımları yapıyorum.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_ecommerce">E-Ticaret Girişimi</span>
+                        <h3 data-i18n="proj_ecomm2_title">E-Ticaret & Perakende Girişimi</h3>
+                        <span class="card-date">2022</span>
+                        <p data-i18n="proj_ecomm2_desc">Online ayakkabı satış mağazası kurulumu kapsamında pazar
+                            araştırması ve operasyonel planlama süreçlerini tamamladım.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_software">Yazılım Geliştirme</span>
+                        <h3 data-i18n="proj_bot_title">Yazılım & Bot Geliştirme</h3>
+                        <span class="card-date">Haziran 2020 – Ocak 2023</span>
+                        <p data-i18n="proj_bot_desc">Node.js kullanarak 500.000’den fazla kullanıcıya hizmet veren
+                            Discord botları
+                            geliştirdim. Ayrıca, üçüncü kişilere özel botlar tasarlayarak ticari satış operasyonlarını
+                            yönettim.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_design">Tasarım & İçerik</span>
+                        <h3 data-i18n="proj_design_title">Grafik Tasarım & İçerik Üretimi</h3>
+                        <span class="card-date">Temmuz 2018 – Haziran 2022</span>
+                        <p data-i18n="proj_design_desc">Sosyal medya platformları için profesyonel içerik üretimi, logo
+                            tasarımı ve video kurgusu süreçlerini yönettim.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="deneyimler">
+                <h2 class="section-title" data-i18n="experience_title">Çalışma Hayatım</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_family">Aile İşletmesi / Ticaret</span>
+                        <h3 data-i18n="exp_yavuzlar_title">Yavuzlar Plastik</h3>
+                        <span class="card-date" data-i18n="exp_yavuzlar_loc">Filyos - Zonguldak</span>
+                        <p data-i18n="exp_yavuzlar_desc">Kendi iş yerimizde montaj ve satış operasyonlarını bizzat
+                            yürütüyorum; ürün tedarik ve müşteri yönetimi süreçlerini yönetiyorum.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_intern">Staj / Deneyim</span>
+                        <h3 data-i18n="exp_teksoz_title">Teksöz Orman Ürünleri</h3>
+                        <span class="card-date" data-i18n="exp_teksoz_loc">Hatay - Antakya</span>
+                        <p data-i18n="exp_teksoz_desc">Sektörel süreçler ve hammadde yönetimi üzerine pratik saha
+                            deneyimi.</p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag" data-i18n="tag_field">Staj / Saha Deneyimi</span>
+                        <h3 data-i18n="exp_akyuzlu_title">Akyüzlü Mühendislik</h3>
+                        <span class="card-date" data-i18n="exp_akyuzlu_loc">Çaycuma - Zonguldak</span>
+                        <p data-i18n="exp_akyuzlu_desc">Saha çalışmalarına aktif katılım sağlayarak; izin belgelerinin
+                            düzenlenmesi ve mühendislik planlama süreçlerinde rol alıyorum.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills & Certificates -->
+            <section id="egitim">
+                <h2 class="section-title" data-i18n="skills_title">Beceriler & Sertifikalar</h2>
+
+                <h3 style="margin-bottom: 1rem;" data-i18n="tech_skills_heading">Teknik Beceriler</h3>
+                <div class="skills-container">
+                    <span class="skill-badge" data-i18n="skill_pazar">Pazar Analizi & Trend Öngörüsü</span>
+                    <span class="skill-badge" data-i18n="skill_endustri">Endüstriyel Süreç Yönetimi</span>
+                    <span class="skill-badge" data-i18n="skill_veri">Veri Odaklı Satış Stratejileri</span>
+                    <span class="skill-badge" data-i18n="skill_gorsel">Görsel Kimlik & Marka İletişimi</span>
+                    <span class="skill-badge" data-i18n="skill_teknik">Teknik & Kreatif Metin Yazarlığı</span>
+                    <span class="skill-badge" data-i18n="skill_dijital">Dijital İş Akışı & Otomasyon</span>
+                    <span class="skill-badge" data-i18n="skill_stratejik">Stratejik Planlama & Çizelgeleme</span>
+                    <span class="skill-badge" data-i18n="skill_analitik">Analitik Problem Çözme</span>
+                    <span class="skill-badge" data-i18n="skill_ileri">İleri Seviye Veri Analitiği</span>
+                    <span class="skill-badge" data-i18n="skill_proje">Proje Yaşam Döngüsü Takibi</span>
+                </div>
+
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;" data-i18n="certs_heading">Sertifikalar & Belgeler
+                </h3>
+                <div class="card">
+                    <ul style="color: var(--text-primary); padding-left: 1.2rem;">
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_excel">Microsoft Excel
+                                Temelleri</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_word">Microsoft Word
+                                Temelleri</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_ent">Girişimcilik
+                                Temelleri</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_invest">Şirket Değerleme
+                                ve Yatırım Süreçleri</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_fin">Finansal
+                                Okuryazarlık</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-certificate"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_canva">Uygulamalı
+                                Canva</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-language"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_en">B2 Seviye
+                                İngilizce</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-anchor"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_sea">Amatör Denizci
+                                Belgesi</span></li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-plane"
+                                style="color: var(--text-accent);"></i> <span data-i18n="cert_uav">İHA - 1 - Sportif /
+                                Amatör Belgesi</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

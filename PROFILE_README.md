@@ -50,9 +50,11 @@
 
 ### 📌 Featured Projects
 
-- 🌐 **[Kişisel CV & Portfolyo Platformu](https://github.com/furqyz/denemecv)** — Modern glassmorphism arayüzü, dark mode ve çok dilli desteğe sahip dinamik portfolyo sitesi. ([Canlı Demo](https://furqyz.github.io/denemecv/))
-- 🤖 **Discord Bot Ekosistemi** — 500.000'den fazla aktif kullanıcıya hizmet veren yüksek performanslı Node.js bot sistemleri.
-- 🛒 **E-Ticaret & Tedarik Operasyonları** — Çok kanallı satış, ödeme entegrasyonu ve global tedarik süreçleri.
+- 🔬 **TÜBİTAK 2209-A Araştırma Projesi (2025 – 2026)** — Sürdürülebilir malzeme geliştirme üzerine deneysel tasarım, süreç planlama ve raporlama.
+- 📈 **Finans & Portföy Yönetimi (2022 – 2026)** — BIST ve ABD borsalarında aktif portföy yönetimi ve finansal analiz.
+- 🌐 **[Kişisel CV & Portfolyo Platformu](https://github.com/furqyz/furkanyavuzcv)** — Modern glassmorphism arayüzü, dark mode ve çok dilli desteğe sahip dinamik portfolyo sitesi. ([Canlı Demo](https://furqyz.github.io/denemecv/))
+- 🤖 **Yazılım & Bot Geliştirme (2020 – 2023)** — 500.000+ kullanıcıya ulaşan yüksek etkileşimli Discord bot sistemleri.
+- 🛒 **Dijital & Fiziksel Ürün Operasyonları (2021 – 2026)** — Uçtan uca tedarik, lisans, satış ve ödeme süreçleri yönetimi.
 
 ---
 

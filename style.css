@@ -847,9 +847,10 @@ section.active {
     box-shadow: 0 4px 15px rgba(76, 217, 100, 0.2);
 }
 
-.btn-mail {
-    background: linear-gradient(135deg, #2196F3, #1976D2);
-    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.2);
+.btn-mail,
+.btn-gmail {
+    background: linear-gradient(135deg, #EA4335, #C5221F);
+    box-shadow: 0 4px 15px rgba(234, 67, 53, 0.25);
 }
 
 .btn-vcard {

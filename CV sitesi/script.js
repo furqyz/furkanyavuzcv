@@ -359,7 +359,7 @@ VERSION:3.0
 FN:Furkan YAVUZ
 ORG:Orman Endüstri Mühendisi
 TEL;TYPE=CELL:+905352023691
-EMAIL:67furkanyavuz@gmail.com
+EMAIL:67dedem67@gmail.com
 URL:https://linkedin.com/in/yavuz-furkan
 END:VCARD`;
             const blob = new Blob([vcard], { type: 'text/vcard' });

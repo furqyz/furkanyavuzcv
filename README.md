@@ -92,7 +92,7 @@ Projeyi bilgisayarınızda çalıştırmak için ek bir derleme aracına (build 
 - **Furkan YAVUZ** — *Orman Endüstri Mühendisi*
 - **LinkedIn:** [linkedin.com/in/yavuz-furkan](https://linkedin.com/in/yavuz-furkan)
 - **GitHub:** [@furqyz](https://github.com/furqyz)
-- **E-posta:** [67furkanyavuz@gmail.com](mailto:67furkanyavuz@gmail.com)
+- **E-posta:** [67dedem67@gmail.com](mailto:67dedem67@gmail.com)
 
 ---
 
